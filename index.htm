@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta name='impact-site-verification' value='2144211830'>
+		<meta charset="utf-8">
+		<link rel="icon" href="img/favicon.ico">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+		<meta name="theme-color" content="#000000">
+		<meta name="description" content="Orijinal deneme hacker. 2026'den beri tüm hacker hayallerinizi sahte gerçekliğe dönüştürüyor.">
+		<link rel="apple-touch-icon" href="img/logo192.png">
+		<link rel="manifest" href="manifest.json">
+		<link rel="stylesheet" href="main.css?v=1.22"><title>Hacker Taklidi</title>
+	</head>
+	<body>
+		<div id="font_div"></div>
+		<div id="main" class="main theme_color">
+			<noscript>Bu uygulamayı çalıştırmak için JavaScript'i etkinleştirmelisiniz.</noscript>
+			<textarea id="hidden_text" class="hidden_text">Başlamak için buraya tıkla</textarea>
+			<pre><span id="typer" class="typer"></span><span id="cursor">|</span><div id="bottom_padding" class="bottom_padding"></div></pre>
+		</div>
+		<div id="footer" class="footer theme_border_color">
+			<div class="hamburger" onclick="showMenu()">
+				<div class="theme_bg_color"></div>
+				<div class="theme_bg_color"></div>
+				<div class="theme_bg_color"></div>
+			</div>
+			<div class="mobile_links">
+				<a href="#" onclick="showModal(sitepoint)">Gerçek bir Hacker Ol</a>
+				<span class="linkora" data-slug="ht"></span>
+			</div>
+			<div class="footer_links">
+				<a href="#" onclick="showModal(settings)">Ayarlar</a>
+				<a href="#" onclick="showModal(help)">Yardım</a>
+				<a href="#" onclick="showModal(about)">Hakkında</a>
+				<a target="_blank" rel="noopener noreferrer" href="https://nurullahkartal.com.tr/">Blog</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://nurullahkartal.com.tr/">İş İlanları</a>
+				<span class="linkora" data-slug="ht"></span>
+				<span class="linkora" data-slug="ht2"></span>
+                <a href="#" onclick="showModal(sitepoint)">Gerçek bir Hacker Ol</a>
+			</div>
+			<div></div>
+			<div><a onclick="closeFooter()" href="#">X</a></div>
+		</div>
+
+		<div id="overlay" class="overlay">
+			<div id="settings" class="modal theme_color theme_border_color">
+				<div><h2>Ayarlar</h2></div>
+				<div class="settings_row">
+					<div>Renk</div>
+					<div class="color_selector">
+						<div class="color_block" style="background: #00ff00" onclick="chooseColor('#00ff00')"></div>
+						<div class="color_block" style="background: #ff0000" onclick="chooseColor('#ff0000')"></div>
+						<div class="color_block" style="background: #0000ff" onclick="chooseColor('#0000ff')"></div>
+						<div class="color_block" style="background: #9a00ff" onclick="chooseColor('#9a00ff')"></div>
+						<div class="color_block" style="background: #ffff00" onclick="chooseColor('#ffff00')"></div>
+						<div class="color_block" style="background: #ffa500" onclick="chooseColor('#ffa500')"></div>
+					</div>
+					<input id="theme_color_input" class="theme_border_color" type="text" value="#00ff00">
+				</div>
+				<div class="settings_row">
+					<div>Hız</div>
+					<input id="speed_range" class="theme_bg_color" type="range" min="1" max="10" value="3">
+					<input id="speed_input" class="theme_border_color" type="text" value="3">
+				</div>
+				<div class="settings_row">
+					<div>Yazı Boyutu</div>
+					<input id="font_size_range" class="theme_bg_color" type="range" min="10" max="30" value="12">
+					<input id="font_size_input" class="theme_border_color" type="text" value="12">
+				</div>
+				<div class="settings_row">
+					<div>Yazı Tipi</div>
+					<select class="theme_border_color" id="font_select">
+						<option value="Courier">Courier</option>
+						<option value="Anonymous Pro">Anonymous Pro</option>
+						<option value="Major Mono Display">Major Mono Display</option>
+						<option value="Nanum Gothic Coding">Nanum Gothic Coding</option>
+						<option value="Nova Mono">Nova Mono</option>
+						<option value="Share Tech Mono">Share Tech Mono</option>
+						<option value="Space Mono">Space Mono</option>
+						<option value="VT323">VT323</option>
+					</select>
+					<div></div>
+				</div>
+
+				<div id="file_row" class="settings_row file_row">
+					<div>Dosya</div>
+					<input id="source_input" type="file" class="theme_border_color" onchange="onFileChange(this.files)">
+					<a href="#" onclick="fetchSource()">Sıfırla</a>
+				</div>
+
+				<div class="modal_footer">
+					<a href="#" class="theme_color" onclick="hideOverlay()">Kapat</a>
+				</div>
+			</div>
+
+			<div id="sitepoint" class="modal theme_border_color">
+				<div><h2>Gerçek bir Hacker Ol</h2></div>
+				<p>
+					Yazılım Geliştirme, her Hacker için olmazsa olmaz bir beceridir!
+				</p>
+				<ul>
+					<li>
+						<a target="_blank" rel="noopener noreferrer" href="https://nurullahkartal.com.tr/">Siber Güvenlik için BT Temelleri</a>
+					</li>
+					<li>
+						<a target="_blank" rel="noopener noreferrer" href="https://nurullahkartal.com.tr/">Google Siber Güvenlik Sertifikası</a>
+					</li>
+					<li>
+						<a target="_blank" rel="noopener noreferrer" href="https://nurullahkartal.com.tr/">IBM Siber Güvenlik Araçları ve Saldırılar</a>
+					</li>
+					<li>
+						<a target="_blank" rel="noopener noreferrer" href="https://nurullahkartal.com.tr/">Siber Güvenlik Uzmanlığı</a>
+					</li>
+				</ul>
+				<p>Bu bağlantılar size ekstra ücret yansıtmadan bize komisyon kazandırabilir.</p>
+				<div class="modal_footer">
+					<a href="#" class="theme_color" onclick="hideOverlay()">Kapat</a>
+				</div>
+			</div>
+
+			<div id="about" class="modal theme_border_color">
+				<div><h2>Hakkında</h2></div>
+				<p>
+					2026 yılında oluşturulan deneme hacker, filmlerdeki ve popüler kültürdeki 
+					klişe hacker görüntüsünü taklit etmek için basit bir istekten doğdu. 
+					O zamandan beri dünya çapında milyonlarca insanın yüzünü güldürdü. 
+					Üstelik birçoğunuz da sadece klavyeye birkaç tıklama ile (ve arka plandaki 
+					biraz programlama büyüsüyle!) geçici olarak birer hackera dönüştünüz.
+				</p>
+				<p>
+					Ayrıca, deneme hacker'ı projelerinizde, videolarınızda veya görsellerinizde 
+					kullanıyorsanız, çekinmeden iletişime geçin! İnsanların yaratıcılığının bu 
+					siteyle etkileşime girdiğinde neler olduğunu görmek harika.
+				</p>
+				<p>Geliştiriciye buradan ulaşabilirsiniz: <i>denem@deneme.com</i></p>
+				<p>
+					Ve lütfen unutmayın: Hayır, kimsenin kişisel eşyasına veya hesabına 
+					izinsiz girmem. Bu yüzden lütfen bu tarz istekleri iletmeyin. Teşekkürler!
+				</p>
+				<div class="modal_footer">
+					<a href="#" class="theme_color" onclick="hideOverlay()">Kapat</a>
+				</div>
+			</div>
+
+			<div id="help" class="modal theme_border_color">
+				<div><h2>Yardım</h2></div>
+				<p>
+					Başlamak için klavyenizde bir tuşa basın, hacker kodlarınız hemen ekranda 
+					belirecektir! Ayrıca tarayıcınızda tam ekran moduna geçebilirsiniz.
+				</p>
+				<p>
+					Deneyiminizi geliştirmek için <i>Shift</i> veya <i>Alt</i> (Mac için 
+					<i>Option</i>) tuşuna üç kez basın.
+					<br>
+					Açık pencereleri kapatmak için <i>Esc</i> tuşuna basın.
+				</p>
+				<p>Yapılandırma ayarları <i>Ayarlar</i> menüsünden değiştirilebilir.</p>
+				<p>
+					Alt menü çubuğu sağ alttaki <i>x</i> işareti ile kapatılabilir.
+					<br>
+					Tekrar görünmesi için sayfayı yenileyin.
+				</p>
+				<div class="modal_footer">
+					<a href="#" class="theme_color" onclick="hideOverlay()">Kapat</a>
+				</div>
+			</div>
+
+			<div id="granted" class="alert granted theme_border_color">
+				<h1>Erişim İzni Verildi</h1>
+			</div>
+
+			<div id="denied" class="alert denied">
+				<h1>Erişim Engellendi</h1>
+			</div>
+
+			<div id="menu" class="menu theme_border_color">
+				<a href="#" onclick="showModal(settings)">Ayarlar</a>
+				<a href="#" onclick="showModal(help)">Yardım</a>
+				<a href="#" onclick="showModal(about)">Hakkında</a>
+				<span class="linkora" data-slug="ht2"></span>
+			</div>
+		</div>
+		<script type="application/javascript" src="main.js?v=1.84"></script>
+	</body>
+</html>

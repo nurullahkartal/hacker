@@ -1,0 +1,32 @@
+Uri: https://hack.nurullahkartal.com.tr/
+File Name: C:\Downloaded Web Sites\hack.nurullahkartal.com.tr\index.htm
+Content Type: text/html
+
+Uri: https://hack.nurullahkartal.com.tr/img/favicon.ico
+File Name: C:\Downloaded Web Sites\hack.nurullahkartal.com.tr\img\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://hack.nurullahkartal.com.tr/img/logo192.png
+File Name: C:\Downloaded Web Sites\hack.nurullahkartal.com.tr\img\logo192.png
+Content Type: image/png
+
+Uri: https://hack.nurullahkartal.com.tr/main.css?v=1.22
+File Name: C:\Downloaded Web Sites\hack.nurullahkartal.com.tr\main.css
+Content Type: text/css
+
+Uri: https://hack.nurullahkartal.com.tr/main.js?v=1.84
+File Name: C:\Downloaded Web Sites\hack.nurullahkartal.com.tr\main.js
+Content Type: application/javascript
+
+Uri: https://hack.nurullahkartal.com.tr/manifest.json
+File Name: C:\Downloaded Web Sites\hack.nurullahkartal.com.tr\manifest.json
+Content Type: application/json
+
+Uri: https://hack.nurullahkartal.com.tr/static/link.js
+File Name: C:\Downloaded Web Sites\hack.nurullahkartal.com.tr\static\link.js
+Content Type: text/javascript
+
+Uri: https://hack.nurullahkartal.com.tr/agr.js
+File Name: C:\Downloaded Web Sites\hack.nurullahkartal.com.tr\agr.js
+Content Type: text/javascript
+
